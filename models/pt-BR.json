@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "minha rádio",
+      "invocationName": "your invocation name",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",

@@ -16,12 +16,17 @@ There are a number of different ways for you to setup your skill, depending on y
  * If you want to manage the backend resources in your own AWS account, you can follow the [AWS-Hosted instructions](./instructions/setup-vui-aws-hosted.md).
  * Developers with the ASK Command Line Interface configured may follow the [ASK CLI instructions](./instructions/cli.md).
 
+ ---
+
  ## Setting up the radio template skill
 
  You can just change some config parameters to your own brand.
 
  * Just upddate the the background and logo variables in the splashscreen-datasource.js file with your own images. 
  * If you are using Alexa-hosted model, you just updated the background and logo images with the file names you uploaded to S3 bucket in your developer account. If you are using your own AWS account to host your lambda function, make sure the variable will contain a public https url.
+ * Update the language model with your own skill invocation name (under models folder)
+ * You can change the prompts from Alexa by updating the language.js file under the utils folder. This template can be extended to any locale
+ * This template enables APL and Audio Player interfaces. It supports both headless and screen devices. 
 
 ---
 
