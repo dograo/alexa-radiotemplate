@@ -3,10 +3,10 @@ const helpers = require('../utils/helpers');
 
 var myBkgImage = "bkgimage.jpg";
 var myLogoImage = "logoimage.png";
-var myTitleText =  "Vagalume";
-var myLiveStreamURL =  "https://stream.vagalume.fm/hls/14623883771774082279/aac.m3u8";
+var myTitleText =  "Your title";
+var myLiveStreamURL =  "https://yourlivestreamurl";
 var myLiveStreamTitle =  "Vagalume";
-var myLiveStreamSubTitle = "Tua Playlist Preferida";
+var myLiveStreamSubTitle = "Your sub title";
 var myliveStreamArtImage = "logoimage.png";
 var myLiveStreamBackgroundImage = "bkgimage.jpg";
 

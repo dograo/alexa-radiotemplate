@@ -1,7 +1,7 @@
-# Build An Alexa Hello World Skill
+# Build An Alexa Radio Skill
 <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/header._TTH_.png" />
 
-### This is a simple tutorial to introduce a simple Alexa skill and code.
+### This is a simple tutorial to introduce a simple template for Alexa radio skill and code.
 
 ## Skill Architecture
 Each skill consists of two basic parts, a front end and a back end.
@@ -15,6 +15,13 @@ There are a number of different ways for you to setup your skill, depending on y
  * If this is your first skill, choose the [Alexa-Hosted backend instructions](./instructions/setup-vui-alexa-hosted.md) to get started quickly.
  * If you want to manage the backend resources in your own AWS account, you can follow the [AWS-Hosted instructions](./instructions/setup-vui-aws-hosted.md).
  * Developers with the ASK Command Line Interface configured may follow the [ASK CLI instructions](./instructions/cli.md).
+
+ ## Setting up the radio template skill
+
+ You can just change some config parameters to your own brand.
+
+ * Just upddate the the background and logo variables in the splashscreen-datasource.js file with your own images. 
+ * If you are using Alexa-hosted model, you just updated the background and logo images with the file names you uploaded to S3 bucket in your developer account. If you are using your own AWS account to host your lambda function, make sure the variable will contain a public https url.
 
 ---
 
